@@ -8,7 +8,7 @@ function Search({ searchInput, search }) {
     <div className="search-bar">
       <input
         type="text"
-        placeholder="Search for a Movie..."
+        placeholder="Search for a Film..."
         className="search"
         onChange={searchInput}
         onKeyPress={search}
